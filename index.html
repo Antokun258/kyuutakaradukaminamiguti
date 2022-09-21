@@ -1,0 +1,128 @@
+<html>
+        <div style="background-color:#0f5aa4">
+          <h1><font color="white">宝塚南口駅発</font></h1>
+          <h2><font color="white">西宮北口行き時刻表(土日祝通学時)</font></h2>
+        </div>
+        <table border="5" bordercolor="#0f5aa4">
+            <body>
+                <tr>
+                    <td>
+                <p id="Clock1" style="display: inline"></p>
+        <script type="text/javascript">
+        setInterval('showClock1()',1000);
+        function showClock1() {
+        var DWs = new Array('日','月','火','水','木','金','土');
+        var Now = new Date();
+        var YY = Now.getYear();
+        if (YY < 2000) { YY += 1900; }
+        var MM = set0( Now.getMonth() + 1 );
+        var DD = set0( Now.getDate() );
+        var DW = DWs[ Now.getDay() ];
+        var hh = set0( Now.getHours() );
+        var mm = set0( Now.getMinutes() );
+        var ss = set0( Now.getSeconds() );
+        var RTime1 ='現在時刻は' + hh + '時' + mm + '分' + ss + '秒';
+        document.getElementById("Clock1").innerHTML = RTime1;
+        }
+        function set0(num) {
+        var ret;
+        if( num < 10 ) { ret = "0" + num; }
+        else { ret = num; }
+        return ret;
+        }
+        </script>
+                    </td>
+                </tr>
+        </body>
+        </table>
+<table border="1">
+    <body>
+        <tr>
+            <td>6:03　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td>6:39　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>6:14　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td>6:46　六甲駅着　※</td>
+        </tr>
+        <tr>
+            <td>6:25　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td>6:53　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>6:38　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td>7:08　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>6:48　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td>7:17　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>7:00　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td>7:27　六甲駅着　※</td>
+        </tr>
+        <tr>
+            <td>7:08　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td>7:38　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>7:18　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td>7:48　六甲駅着</td>
+        </tr>
+        <tr>
+            <td bgcolor="#ff9999">7:21　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td bgcolor="#ff9999">7:48　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>7:28　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td>7:58　六甲駅着</td>
+        </tr>
+        <tr>
+            <td bgcolor="#ff9999">7:31　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td bgcolor="#ff9999">7:58　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>7:38　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td>8:08　六甲駅着</td>
+        </tr>
+        <tr>
+            <td bgcolor="#ff9999">7:41　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td bgcolor="#ff9999">8:08　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>7:48　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td>8:18　六甲駅着</td>
+        </tr>
+        <tr>
+            <td bgcolor="#ff9999">7:51　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td bgcolor="#ff9999">8:18　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>7:58　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td>8:28　六甲駅着</td>
+        </tr>
+        <tr>
+            <td bgcolor="#ff9999">8:01　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td bgcolor="#ff9999">8:28　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>8:08　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td>8:38　六甲駅着</td>
+        </tr>
+        <tr>
+            <td bgcolor="#ff9999">8:11　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　西宮北口</font></td>
+            <td bgcolor="#ff9999">8:38　六甲駅着</td>
+        </tr>
+    </body>
+</table>
+<table border="5" bordercolor="#0f5aa4">
+    <tr>
+        <td>赤背景で書かれている列車は土曜日のみの運行です。</td>
+    </tr>
+</table>
+<table border="5" bordercolor="#0f5aa4">
+    <tr>
+        <td>※‥西宮北口で始発の電車に乗り換えのため、かなり空いてます。</td>
+    </tr>
+</table>
+</html>
